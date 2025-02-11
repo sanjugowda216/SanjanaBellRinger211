@@ -1,0 +1,11 @@
+import time
+import datetime
+
+valentines = datetime.date(2025,2,14)
+times= time.localtime()
+now = datetime.localtime()
+today = datetime.date(now)
+if (times)==valentines:
+    print("happy valentines day!")
+else:
+    print("Awh")
